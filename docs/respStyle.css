@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@531&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+.h1{
+    font-family: 'Roboto Slab', serif;
+    color: darkslategray;
+    font-size: 24pt;
+}
+
+.h2{
+    font-family: 'Roboto Slab', serif;
+    color: darkslategray;
+    font-size: 16pt;
+}
+
+.p{
+    font-family: 'Roboto Slab', serif;
+    color: darkslategray;
+    padding: 10px;
+}
+
+.postImg{
+    height: 250px;
+    width: 25%;
+}
+
+.banner{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banImg{
+    height: 100px;
+    width: 100%;
+}
+
+.main{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 66.76%;
+    border-top: 3px solid black;
+
+}
+
+.post{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+    word-wrap: break-word;
+    border: 3px solid black;
+}
+
+
+.add{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color:lightslategrey;
+    border: 3px solid black;
+}
+
+
+ @media only screen and (max-width: 600px){
+    .banImg{
+        height: 200px;
+        width: 50%;
+        
+    }
+
+    .banner{
+        height: 380px;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .h1{
+        font-size: 36pt;
+    }
+    
+    .h2{
+        font-size: 28pt;
+    }
+    
+    .p{
+        font-size: 18pt;
+    }
+
+    .postImg{
+        height: 200px;
+        width: 50%;
+    }
+ }
